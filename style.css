@@ -39,3 +39,8 @@ span.nombre{
 h1.titulo2{
     text-align: center;
 }
+
+input.cantidad{
+    color: red;
+
+}
