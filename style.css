@@ -1,0 +1,41 @@
+h1.titulo{
+    text-align: center;
+}
+
+body{
+    background-color: sandybrown;
+}
+
+section.bitcoin{
+    position: relative;
+    left:30cm;
+}
+
+p.etherum{
+    position: relative;
+    left: 25cm;
+}
+
+section.etherum{
+    background-color: white;
+
+
+}
+
+section.litecoin{
+    position: relative;
+    left: 8cm;
+}
+
+footer.web1{
+    text-align: center;
+    background-color: yellow;
+}
+
+span.nombre{
+    color: red;
+}
+
+h1.titulo2{
+    text-align: center;
+}
