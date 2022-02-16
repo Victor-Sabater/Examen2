@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Criptomonedas</title>
+    <title>Examen Aplicaciones web</title>
     <link rel="stylesheet" href="style.css">
 </head>
+<script>
+     output = document.getElementById("bitcoin") ;
+     
+</script>
 <body>
     <header><h1 class="titulo2"> <a href="index.html">Criptomonedas</a></h1></header>
     <hr>
@@ -14,10 +18,15 @@
         <section>
             <form  action="examen.php" method="get">
                 Bitcoin <input type="text" name="bitcoin" id="bitcoin">. Valor 39.262€<br>
-                Cantidad monedas<input type="text"
+                <br>
+                Cantidad monedas<input type="number" name="cantidad" id="cantidad" min="0"> Valor <input type="text" name="valor" id="valor">
+
 
 
             </form>
+            <footer class="web1">
+                <p>Web desarrollada por <span class="nombre">Victor Sabater Garcia</span> </p>
+            </footer>
         </section>
     </main>
     
